@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">闲暇</string>
     <string name="title">应用列表</string>
+    <string name="weixin">WeChat</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="setting">设置</string>
+    <string name="search">搜索</string>
+    <string name="action_search">搜索</string>
+    <string name="action_plus">添加</string>
+    <string name="action_collection">收藏</string>
+    <string name="action_card">钱包</string>
+    <string name="action_feed">喂养</string>
+    <string name="action_settings">设置</string>
+    <string name="action_album">唱片</string>
 </resources>

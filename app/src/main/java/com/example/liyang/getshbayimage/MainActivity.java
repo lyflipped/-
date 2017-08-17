@@ -41,6 +41,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             intent.setClass(this,ToutiaoActivity.class);
             startActivity(intent);
         }
+        if(titles[position].equals("签名"))
+        {
+            Intent  intent = new Intent();
+            intent.setClass(this,wechatdemo.class);
+            startActivity(intent);
+        }
 
     }
 }

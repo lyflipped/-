@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.liyang.getshbayimage.wechatdemo" >
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search_24px"
+        android:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"
+        android:title="@string/action_search" />
+    <item
+        android:id="@+id/action_plus"
+        android:icon="@drawable/arrows_plus_24px"
+        app:showAsAction="always"
+        android:title="@string/action_plus">
+    </item>
+    <item
+        android:id="@+id/action_album"
+        android:icon="@drawable/back"
+        app:showAsAction="never"
+        android:title="@string/action_album">
+    </item>
+    <item
+        android:id="@+id/action_collection"
+        android:icon="@drawable/back"
+        app:showAsAction="never"
+        android:title="@string/action_collection">
+    </item>
+    <item
+        android:id="@+id/action_card"
+        android:icon="@drawable/back"
+        app:showAsAction="never"
+        android:title="@string/action_card">
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/back"
+        app:showAsAction="never"
+        android:title="@string/action_settings">
+    </item>
+    <item
+        android:id="@+id/action_feed"
+        android:icon="@drawable/back"
+        app:showAsAction="never"
+        android:title="@string/action_feed">
+    </item>
+
+
+
+</menu>

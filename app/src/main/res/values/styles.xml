@@ -12,4 +12,92 @@
         <item name="windowNoTitle">true</item>
         <item name="colorPrimaryDark">@color/sufang</item>
     </style>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/WeChatActionBar</item>
+        <item name="android:itemBackground">@color/bg_menuitem</item>
+        <item name="android:actionBarItemBackground">@color/bg_menuitem</item>
+        <item name="android:itemTextAppearance">@style/WeChatActionBarOverflow</item>
+        <item name="android:actionOverflowButtonStyle">@style/WeChatActionButtonOverflow</item>
+    </style>
+
+    <style name="WeChatActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#303537</item>
+        <item name="android:textColor">#cfcfcf</item>
+        <item name="android:titleTextStyle">@style/WeChatActionBarTitleText</item>
+    </style>
+
+    <style name="WeChatActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#cfcfcf</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="WeChatActionBarOverflow" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="WeChatActionButtonOverflow" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/menu_24px</item>
+    </style>
+
+
+
+    <style name="Theme.Myactionbar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_myactionbar</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Myactionbar</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Myactionbar</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Myactionbar</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Myactionbar</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Myactionbar</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_myactionbar</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_myactionbar</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Myactionbar</item>
+
+        <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.Myactionbar.Widget</item>
+
+    </style>
+
+    <style name="ActionBar.Solid.Myactionbar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_myactionbar</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_myactionbar</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_myactionbar</item>
+        <item name="progressBarStyle">@style/ProgressBar.Myactionbar</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Myactionbar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_myactionbar</item>
+        <item name="progressBarStyle">@style/ProgressBar.Myactionbar</item>
+    </style>
+
+    <style name="PopupMenu.Myactionbar" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_myactionbar</item>
+    </style>
+
+    <style name="DropDownListView.Myactionbar" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_myactionbar</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Myactionbar" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_myactionbar</item>
+    </style>
+
+    <style name="DropDownNav.Myactionbar" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_myactionbar</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_myactionbar</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_myactionbar</item>
+    </style>
+
+    <style name="ProgressBar.Myactionbar" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_myactionbar</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Myactionbar" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_myactionbar</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Myactionbar.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Myactionbar</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Myactionbar</item>
+    </style>
 </resources>
